@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    background: url("../images/waves.jpg") ;
+    background-size: cover;
+    
+}
+.main{
+    width: 1000px;
+    margin: auto;
+    height: 550px;
+    font-family: cursive;
+    background:url(/images/headerbg.jpg) no-repeat;
+   
+}
+.header{
+    width: 1000px;
+    height: 550px;
+    background: url(/images/gridtile.png) repeat;
+    display: flex;
+    flex-direction: column;
+}
+.r1{
+    width: 1000px;
+    height: 200px;
+    
+}
+.r1 img{
+    width: 600px;
+    height: 150px;
+   padding-top: 40px;
+   padding-left:350px;
+   box-sizing: border-box;
+
+}
+ .r2{
+     width: 1000px;
+    height: 175px;
+    text-align: center;
+    color:white;
+    padding: 20px;
+    margin-top:50px;
+    
+ }
+ 
+ .r2 hr{
+    margin: auto;
+    width: 300px;
+    border-color: cyan;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+
+        
+}
+.r3{
+    width: 1000px;
+    height: 105px;
+    padding-top:70px;
+}
+.r3>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+}
+
+ .r3 li>a:hover{
+    transition: 10ms ease all;
+    border-bottom: 3px solid orangered;
+  
+
+}
+.r3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.r3 ul  li{
+    list-style: none;
+    border-right: 2px solid white;
+    padding: 10px 50px ;
+   
+}
+.r3 ul  li:last-child{
+    border:none;
+}
+.r4{
+    width: 1000px;
+    height: 10px;
+    background-color:blue;
+}
+
+
+
+.Home,.About,.Service,.Training,.Contact{
+width: 1000px;
+height: 550px;
+margin: auto;
+background:white;
+}
+.Home{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.Homer1{
+    width: 1000px;
+    height:250px;
+    background: url(/images/3.jpg) no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-position:center ;
+}
+.Homer1{
+    width: 1000px;
+    height:250px;
+    background: url(/images/3.jpg) no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-position:center ;
+}
+
+.Homer1 h2{
+     width: 100px;
+     text-align: center;
+     border: 10px solid white;
+     color: white;
+     font-weight: bolder; margin: auto;
+     margin-top:100px;
+}
+.Homer2{
+    width: 1000px;
+    height: 300px;
+    background-color: #fff;
+}
+.Homer2 p{
+    padding: 20px;
+}
+.Homer2  p>a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.About{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Aboutr1{
+    width: 1000px;
+    height: 250px;
+    background: url(/images/1.jpg) no-repeat;
+    background-size:contain ;
+    background-attachment: fixed;
+    background-position:center;
+}
+.Service{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.Servicer1{
+    width: 1000px;
+    height: 250px;
+    background: url(/images/2.jpg) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.Aboutr1 h2,.Servicer1 h2,.Trainingr1 h2,.Contactr1 h2{
+     width: 150px;
+     text-align: center;
+     border: 10px solid white;
+     color: white;
+     font-weight: bolder; margin: auto;
+     margin-top: 100px;
+    
+}
+.Aboutr2{
+  width: 1000px;
+  height:300px;   
+}
+.Aboutr2 p:nth-child(1){
+    padding: 20px;
+}
+.Aboutr2 p:nth-child(2){
+    padding: 20px;
+}
+.Aboutr2 p:last-child{
+    padding: 10px;
+}
+.Aboutr2  p>a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+.About11 h2{
+     width: 100px;
+     text-align: center;
+     border: 10px solid white;
+     color: white;
+     font-weight: bolder; margin: auto;
+     margin-top: 100px;
+}
+.Training{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.Trainingr1{
+    width: 1000px;
+    height: 250px;
+    background: url(/images/banner-7.jpg) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+.Contact{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.Contactr1{
+    width: 1000px;
+    height: 250px;
+    background: url(/images/4.jpg) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+.Aboutr2 h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.Aboutr2 p{
+    text-align: center;
+}
+.top{
+    width: 1000px;
+    height: 75px;
+    background-color: #3C4444;
+    margin: auto;
+}
+.top p:nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.top a{
+    text-decoration: none;
+    color: white;
+}
